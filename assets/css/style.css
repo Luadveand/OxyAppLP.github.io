@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #2487ce;
+  color: #18ab29;
   text-decoration: none;
 }
 
 a:hover {
-  color: #469fdf;
+  color: #18ab29;
   text-decoration: none;
 }
 
@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #2487ce;
+  border: 6px solid #18ab29;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   transition: all 0.5s;
   background: #fff;
-  z-index: 997;
+  z-index: 950;
   padding: 15px 0;
   border-bottom: 1px solid #e6f2fb;
 }
@@ -818,9 +818,28 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
+  width: 200px;
   border-radius: 50%;
   margin: 0 auto;
+}
+
+/*Img testimonio*/
+.imgtest{
+  padding: 5px;
+  width: 200px;
+  box-sizing: content-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imgtest2{
+  padding-top: 20px;
+  padding-bottom: -5px;
+  width: 400px;
+  box-sizing: content-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .testimonials .testimonial-item h3 {
@@ -956,10 +975,6 @@ section {
 
 .services .iconbox-blue i {
   color: #47aeff;
-}
-
-.services .iconbox-blue:hover .icon i {
-  color: #fff;
 }
 
 .services .iconbox-blue:hover .icon path {
@@ -1904,4 +1919,11 @@ section {
   background: #3194db;
   color: #fff;
   text-decoration: none;
+}
+
+.imagencta{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
